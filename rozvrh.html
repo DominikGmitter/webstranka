@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="sk">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv="refresh" content="60">
+    <title>Dominik Gmitter</title> <!--meno stranky-->
+    <link rel="icon" type="image/x-icon" href="fotky/dg.ico">
+    <link rel="stylesheet" href="styly.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navigacia na stranke-->
+    <nav>
+    <ul>
+        <li style="float: left; margin-left: 200px;"><img src="fotky/logobg.png" width="100" alt="logo"></li>
+        <li style="margin-right:200px;"><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="projekty.html">Školské projekty</a></li>
+        <li><a href="rozvrh.html">Rozvrh</a></li>
+        <li><a href="index.html">O mne</a></li>
+        </ul>
+        </nav>
+        <!--tabulka-->
+        <h2 id="nadpistab">Môj aktuálny rozvrh</h2>
+        <table id="rozvrh">
+            <tr class="Dni_cas">
+                <th>Dni/Čas</th>
+                <th>08:00-08:45</th>
+                <th>08:55-09:40</th>
+                <th>09:50-10:35</th>
+                <th>10:45-11:30</th>
+                <th>11:30-12:15</th>
+                <th>12:35-13:10</th>
+                <th>13:20-14:05</th>
+                <th>14:25-15:10</th>
+                <th>15:20-16:05</th>
+                <th>16:05-16:50</th>
+            </tr>
+            <tr>
+                <td class="Dni_cas">Pondelok</td>
+                <td class="prednaska">ISU - P<p class="predmetinfo">Informačné systémy o územi prednáška<br>SJ2P10<br>Hofierka</p></td>
+                <td class="cviko">DMG - C<p class="predmetinfo">Demografia cvičenie<br>SJ2P10<br>Pregi</p></td>
+                <td>&nbsp;</td>
+                <td class="cviko" colspan="2">ISU - C<p class="predmetinfo">Informačné systémy o územi cvičenie<br>SA1C05<br>Fedor</p></td>
+                <td colspan="2">&nbsp;</td>
+                <td class="prednaska" colspan="2">DMG - P<p class="predmetinfo">Demografia prednáška<br>SJP13<br>Nestorová-Dická</p></td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="Dni_cas">Utorok</td>
+                <td colspan="3">&nbsp;</td>
+                <td class="cviko" colspan="2">VFI - C<p class="predmetinfo">Verejné financie cvičenie<br>PA3S05<br>Džuňová</p></td>
+                <td class="prednaska" colspan="2">VFI- P<p class="predmetinfo">Verejné financie prednáška<br>PA01A1<br>Mihalíková</p></td>
+                <td class="prednaska">MVvVS - P<p class="predmetinfo">Metódy výskumu pre verejnú správu prednáška<br>PA1S09<br>Brutovská</p></td> 
+                <td class="cviko" colspan="2">MVvVS - C<p class="predmetinfo">Metódy výskumu pre verejnú správu cvičenie<br>PA1C06<br>Brutovská</p></td>
+            </tr>
+            <tr>
+            <!-- 2.riadok druhe hodiny kazdy den-->
+                <td class="Dni_cas">Streda</td>
+                <td>&nbsp;</td>
+                <td class="prednaska">PZ - P<p class="predmetinfo">Prezentačné zručnosti prednáška<br>PA01A1<br>Brutovská</p></td>
+                <td class="cviko" colspan="2">PZ - C<p class="predmetinfo">Prezentačné zručnosti cvičenie<br>PA1C06<br>Brutovská</p></td>
+                <td colspan="6">&nbsp;</td>
+            </tr>
+            <!-- 3.riadok tretie hodiny kazdy den-->
+            <tr>
+                <td class="Dni_cas">Štvrtok</td>
+                <td colspan="10">&nbsp;</td>
+            </tr>
+            <!-- 4.riadok stvrte hodiny kazdy den-->
+            <tr>
+                <td class="Dni_cas">Piatok</td>
+                <td colspan="10">&nbsp;</td>
+            </tr>
+        </table>
+        <!--prepojenia na webstranky o predmetoch v rozvrhu -->
+            <p style="text-indent: 50px;"><a href="https://studijne-programy.upjs.sk/predmet/%C3%9AGE%2FISU%2F19" target="_blank">ISU</a> = Informačné systémy o územi<br></p>
+            <p style="text-indent: 50px;"><a href="https://studijne-programy.upjs.sk/predmet/KSS%2FMVpreVS-IS-d%2F24" target="_blank">MVvVS</a> = Metódy výskumu pre verejnú správu<br></p>    
+            <p style="text-indent: 50px;"><a href="https://studijne-programy.upjs.sk/predmet/%C3%9AGE%2FDMG%2F19" target="_blank">DMG</a> = Demografia<br></p>
+            <p style="text-indent: 50px;"><a href="https://studijne-programy.upjs.sk/predmet/KEaRVS%2FVF-IS-d%2F22" target="_blank">VF</a> = Verejné financie<br></p>
+            <p style="text-indent: 50px;"><a href="https://studijne-programy.upjs.sk/predmet/KSS%2FPZ-IS-d%2F24" target="_blank">PZ</a> = Prezentačné zručnosti<br></p>
+            <p style="text-indent: 50px;"><a href="https://studijne-programy.upjs.sk/predmet/%C3%9AINF%2FWBdi%2F24" target="_blank">WBdi</a> = Web a návrh používateľských rozhraní </p>
+    <footer class="footer">
+        <p>© 2025 Dominik Gmitter</p>
+        <div class="fotecky">
+        <p><a href="https://jigsaw.w3.org/css-validator/validator?uri=https://s.ics.upjs.sk/~dominik_gmitter/styly.css">
+            <img src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="css-validator"></a>
+    </p><a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fs.ics.upjs.sk%2F%7Edominik_gmitter%2Frozvrh.html">
+        <img src="fotky/valid-html401-blue.png" alt="html-validator"></a>
+    </div>
+    </footer>
+</body>
+</html>
