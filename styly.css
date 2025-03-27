@@ -1,0 +1,135 @@
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("fotky/backgroundfoto.webp");
+    padding-bottom: 60px;
+}
+.index{
+    text-align: center;
+    padding-top: 100px; 
+}
+.logo{
+    float: left; 
+    margin-left: 200px;
+}
+h2{
+    text-align: center;
+}
+div.omne{
+    text-align: center;
+    font-size: large;
+    margin: auto;
+    width: 50%;
+    padding-top: 10px;
+}
+#kontakt{
+    text-align: center;
+}
+/*navigation*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    display: inline;
+    float: right;
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 30px;
+    text-decoration: none;
+    font-style: italic;
+}
+li a:hover{
+    background-color: grey;
+}
+/*tabulka a jej sucasti */
+#rozvrh{
+    font-family:"DM Serif Text",sans-serif;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    empty-cells: hide;
+    background-color: white;
+    color: black;
+}
+th{
+    text-align: center;
+    vertical-align:top;
+    border: 1px solid black; 
+    height: 200%;
+}
+td{
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+}
+tr{
+    height:20px;
+}
+#nadpistab {
+    text-align: center;
+}
+.cviko {
+    background-color: lightgreen;
+}
+.prednaska{
+    background-color: green;
+}
+.Dni_cas{
+    background-color: grey;
+}
+.prednaska:hover .predmetinfo{
+    display: block;
+}
+.cviko:hover .predmetinfo{
+    display: block;
+}
+.predmetinfo{
+    display: none;
+}
+/*galeria obrazkov*/
+div.obrazky{
+    margin: 15px;
+    border: 10px solid #ccc;
+    float:left;
+    width: 200px;
+}
+div.obrazky:hover{
+    border: 1px solid #ccc;
+}
+div.obrazky img{
+    width: 100%;
+    height: auto;
+}
+div.Popis{
+    padding: 15px;
+    text-align: center;
+}
+/*footer*/
+.footer {
+    position:fixed;
+    bottom: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content:center;
+    align-items: center;
+  }
+.footer .fotecky{
+    display: flex;
+    align-items: center;
+}
+div.fotecky img{
+    height: 30px;
+    margin: 0 5px;
+}
+.footer p{
+    margin: 0;
+}
